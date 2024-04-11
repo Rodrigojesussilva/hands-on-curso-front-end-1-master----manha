@@ -1,0 +1,35 @@
+header
+{
+    width: 1024px;
+    margin: 0 auto;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os itens do menu */
+  }
+header nav ul li a
+{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f50; /* Laranja */
+    transition: background-color 0.3s;
+    border-radius: 5px; /* Arredonda as bordas */
+   
+}
+nav ul li a:hover {
+    background-color: #ff6347; /* Laranja mais escuro */
+  }
