@@ -50,3 +50,17 @@
         justify-content: center;
     }
 }
+@media(max-width: 665px)
+{
+    .container
+    {
+        width: 400px;
+    }
+}
+@media(max-width: 450px)
+{
+    .container
+    {
+        width: 300px;
+    }
+}
