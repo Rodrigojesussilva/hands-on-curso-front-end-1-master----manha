@@ -63,4 +63,9 @@
     {
         width: 300px;
     }
+    header nav ul
+    {
+        flex-direction: column;
+    }
+
 }
